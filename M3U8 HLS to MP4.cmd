@@ -12,7 +12,7 @@ set /p URL= Paste M3U8 URL here:
 echo.
 
 if not exist downloaded-mp4s mkdir downloaded-mp4s
-..\ffmpeg\bin\ffmpeg -i "%URL%" -c copy -bsf:a aac_adtstoasc downloaded-mp4s\Output.mp3
+..\ffmpeg\bin\ffmpeg -i "%URL%" -c copy -bsf:a aac_adtstoasc downloaded-mp4s\Output.mp4
 
 echo.
 echo Press Any Key to Exit
